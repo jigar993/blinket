@@ -1,0 +1,62 @@
+
+body{
+  position: relative;
+}
+nav{
+  width: 100vw;
+  height: 15vh;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+.navloc{
+  letter-spacing: 0.01;
+  text-decoration: bold;
+  font-weight: 800;
+  font-size: 11px;
+  margin-top: 5px;
+}
+.banner{
+  position: relative;
+  width: 100vw;
+  height: 82vh;
+  position: sticky;
+  top: 0%;
+  background-color: blue;
+}
+.categories{
+  position: relative;
+  height: 60vh;
+  width: 100vw;
+  background-color: green;
+}
+.logo{
+  height: 100%;
+  width: 14%;
+  padding: 16px;
+  padding-left: 13px;
+  border-right: 1px solid grey;
+  background-color: whitesmoke;
+}
+.location{
+  height: 100%;
+  width: 23%;
+  padding: 12px;
+  padding-left: 12px;
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  
+}
+.loc{
+  font-size: 8px;
+  color: gray;
+  margin-top: 3px;
+}
+.searchbar{
+  height: 100%;
+  width: 30%;
+  padding: 12px;
+  background-color: rgb(192, 186, 189);
+}  
